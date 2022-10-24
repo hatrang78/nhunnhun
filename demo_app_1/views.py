@@ -9,3 +9,6 @@ def index(request):
 def nhun2(request):
     print("truy cap")
     return HttpResponse("Day la nhun2")
+
+def nhun4(request):
+    return HttpResponse("Day la nhun4")
