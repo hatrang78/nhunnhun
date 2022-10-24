@@ -12,3 +12,7 @@ def nhun2(request):
 
 def nhun4(request):
     return HttpResponse("Day la nhun4")
+    
+def nhun3(request):
+    print("truy cap")
+    return HttpResponse("Nhun3 xin chao cac ban")
